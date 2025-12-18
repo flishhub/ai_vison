@@ -47,11 +47,11 @@ This repository documents my journey in building a local Computer Vision environ
 
 ### **The "Rufus" Case Study**
 
-One of the main goals was "Inference" (testing the AI on real-world photos).
+One of the main goals was "Inference" (testing the AI on real-world photos). Specificly my dog Rufus.
 
 1. **V3 Model (Custom):** Identified my dog as a "Deer" (31% confidence) and later a "Cat" (51% confidence). This was due to the model being limited to **32x32 pixel** inputs.
 2. **ResNet-50 (Pro):** Corrected the classification to a **Blenheim Spaniel**.
-**Lesson Learned:** High-resolution input (224 \times 224) and deeper architectures are required for professional-grade species and breed identification.
+**Lesson Learned:** High-resolution input (224x224) and deeper architectures are required for professional-grade species and breed identification.
 
 ---
 
